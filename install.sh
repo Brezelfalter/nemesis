@@ -36,6 +36,19 @@ apt_install='
     iperf3
     etherape
     wireshark
+    iftop
+    hping3
+    ptunnel
+    tcpdump
+    masscan
+    whois
+    whatweb
+    curl
+    nikto
+    tshark
+    tmux
+    openssh-client
+    openssh-server
     '
 
 # specify packages to install via snap
