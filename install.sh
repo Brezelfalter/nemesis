@@ -34,6 +34,8 @@ apt_install='
     cmatrix
     git
     iperf3
+    etherape
+    wireshark
     '
 
 # specify packages to install via snap
