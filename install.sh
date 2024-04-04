@@ -83,7 +83,7 @@ sudo apt update
 echo 
 echo
 pad "Installing snap" 100
-sudo sudo apt install snapd
+sudo apt install snapd
 echo 
 echo
 
