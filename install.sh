@@ -82,6 +82,10 @@ pad "Running apt update" 100
 sudo apt update
 echo 
 echo
+pad "Installing snap" 100
+sudo sudo apt install snapd
+echo 
+echo
 
 
 # install via apt
