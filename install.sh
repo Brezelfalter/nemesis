@@ -84,6 +84,7 @@ echo
 echo
 pad "Installing snap" 100
 sudo apt install snapd
+sudo systemctl restart snapd snapd.socket # hopefully solve for snapd not running properly
 echo 
 echo
 
