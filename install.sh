@@ -49,6 +49,7 @@ apt_install='
     tmux
     openssh-client
     openssh-server
+    kleopatra
     '
 
 # specify packages to install via snap
