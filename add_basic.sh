@@ -42,7 +42,7 @@ apt_install='
     tcpdump
     masscan
     whois
-    whatweb
+    whatweb 
     curl
     nikto
     tshark
@@ -51,6 +51,7 @@ apt_install='
     openssh-server
     kleopatra
     vim
+    net-tools
     '
 
 # specify packages to install via snap
