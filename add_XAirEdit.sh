@@ -51,7 +51,7 @@ done
 # add flatpak to repos
 echo 
 pad "Add flatpak to repositories" 100
-sudo add-apt-repository ppa:alexlarsson/flatpak
+sudo add-apt-repository -y ppa:alexlarsson/flatpak
 echo 
 echo
 
