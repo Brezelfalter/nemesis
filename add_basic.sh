@@ -50,6 +50,7 @@ apt_install='
     openssh-client
     openssh-server
     kleopatra
+    vim
     '
 
 # specify packages to install via snap
