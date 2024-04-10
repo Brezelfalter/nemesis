@@ -79,7 +79,7 @@ echo
 
 # add remote location of flathub
 pad "Adding flathub remote" 100
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub/flathub.flatpakrepo
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 echo
 echo
 
