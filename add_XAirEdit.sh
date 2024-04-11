@@ -94,4 +94,27 @@ do
 done
 
 
+# end of installation
 pad "Finished installing" 100
+echo 
+echo
+
+
+# announce need for reboot
+pad "Reboot" 100
+echo "The system may need to be rebooted in order to complete the installation and in order for the software to show up properly."
+echo "Reboot now?"
+
+
+select yn in "Yes" "No"
+do 
+    case $yn in 
+        Yes ) break;;
+        No ) exit;;
+    esac
+done
+
+
+# reboot
+echo "Rebooting..." 
+reboot
