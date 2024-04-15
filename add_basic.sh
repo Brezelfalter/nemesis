@@ -52,6 +52,7 @@ apt_install='
     kleopatra
     vim
     net-tools
+    neofetch
     '
 
 # specify packages to install via snap
