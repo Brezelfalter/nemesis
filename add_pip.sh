@@ -48,10 +48,24 @@ do
 done
 
 
-# install via apt
+# install pip
+pad "Instaling pip via apt" 100
+sudo apt install python3-pip
+echo 
+echo
+
+
+# run apt update
+pad "Runnign apt update" 100
+sudo apt update
+echo 
+echo
+
+
+# install via pip
 for pip_package in $pip_install
 do 
-    pad "Packages (apt): Installing $pip_package" 100
+    pad "Libraries (pip): Installing $pip_package" 100
     python3 pip install -y $pip_package
     echo 
     echo
