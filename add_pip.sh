@@ -66,7 +66,7 @@ echo
 for pip_package in $pip_install
 do 
     pad "Libraries (pip): Installing $pip_package" 100
-    python3 pip install -y $pip_package
+    pip install -y $pip_package
     echo 
     echo
 done
