@@ -56,7 +56,7 @@ echo
 
 
 # run apt update
-pad "Runnign apt update" 100
+pad "Running apt update" 100
 sudo apt update
 echo 
 echo
