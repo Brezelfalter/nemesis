@@ -1,3 +1,3 @@
-# nemesis
+# Nemesis
 
 An assortment of basic bash scripts for different installations.
