@@ -29,6 +29,8 @@ pad () {
 # specify libraries to install via pip
 pip_install='
     discord
+    wakeonlan
+    python-dotenv
     '
 
 
