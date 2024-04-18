@@ -53,6 +53,7 @@ apt_install='
     vim
     net-tools
     neofetch
+    python3-pip
     '
 
 # specify packages to install via snap
