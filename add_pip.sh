@@ -31,6 +31,7 @@ pip_install='
     discord
     wakeonlan
     python-dotenv
+    urllib3
     '
 
 
