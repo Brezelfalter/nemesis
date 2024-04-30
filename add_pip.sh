@@ -32,6 +32,7 @@ pip_install='
     wakeonlan
     python-dotenv
     urllib3
+    pyngrok
     '
 
 
