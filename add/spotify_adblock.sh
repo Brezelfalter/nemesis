@@ -45,8 +45,8 @@ sudo apt-get install spotify-client
 
 # Begin Install
 pad "clone into spotify-adblock.git" 100
-git clone https://github.com/abba23/spotify-adblock.git
-cd spotify-adblock
+git clone https://github.com/abba23/spotify-adblock.git /home/
+cd /home/spotify-adblock
 make 
 
 
