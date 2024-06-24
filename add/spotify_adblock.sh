@@ -32,7 +32,7 @@ sudo apt update
 sudo apt install git -y
 sudo apt-get install make -y
 sudo curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-
+sudo apt install cargo -y
 
 # install normal spotify 
 pad "Installing spotify" 100
