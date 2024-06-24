@@ -62,7 +62,7 @@ sudo flatpak override --user --filesystem="~/.spotify-adblock/spotify-adblock.so
 pad "Creating desktop file" 100
 
 sudo touch /usr/share/applications/spotify-adblock.desktop
-echo "[Desktop Entry]" | sudo tee /usr/share/applications/spotify-adblock.desktop -a
+echo "[Desktop Entry]" | sudo tee /usr/share/applications/spotify-adblock.desktop
 echo "Name=Spotify Adblock" | sudo tee /usr/share/applications/spotify-adblock.desktop -a
 echo "Exec=env LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify" | sudo tee /usr/share/applications/spotify-adblock.desktop -a
 echo "Icon=/snap/spotify/76/usr/share/spotify/icons/spotify-linux-128.png" | sudo tee /usr/share/applications/spotify-adblock.desktop -a
