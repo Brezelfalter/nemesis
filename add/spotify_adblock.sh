@@ -45,7 +45,7 @@ sudo apt-get install spotify-client
 
 # Begin Install
 pad "clone into spotify-adblock.git" 100
-git clone https://github.com/abba23/spotify-adblock.git /home/spotify-adblock
+sudo git clone https://github.com/abba23/spotify-adblock.git /home/spotify-adblock
 cd /home/spotify-adblock
 make 
 
@@ -53,9 +53,9 @@ make
 # Install adblocked spotify
 pad "Install adblock" 100
 sudo make install
-mkdir -p ~/.spotify-adblock && cp target/release/libspotifyadblock.so ~/.spotify-adblock/spotify-adblock.so
-mkdir -p ~/.config/spotify-adblock && cp config.toml ~/.config/spotify-adblock
-flatpak override --user --filesystem="~/.spotify-adblock/spotify-adblock.so" --filesystem="~/.config/spotify-adblock/config.toml" com.spotify.Client
+sudo mkdir -p ~/.spotify-adblock && cp target/release/libspotifyadblock.so ~/.spotify-adblock/spotify-adblock.so
+sudo mkdir -p ~/.config/spotify-adblock && cp config.toml ~/.config/spotify-adblock
+sudo flatpak override --user --filesystem="~/.spotify-adblock/spotify-adblock.so" --filesystem="~/.config/spotify-adblock/config.toml" com.spotify.Client
 
 
 # adding .desktop file
