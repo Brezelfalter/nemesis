@@ -49,8 +49,10 @@ do
     if [[ "$option" == 2 ]]; then 
         read -p "Specify the version to install: " install_version
         echo "Selected given version $install_version to be installed"
+        break
     else
         echo "Keeping standard version to be installed." 
+        break
     fi
 done
 echo
