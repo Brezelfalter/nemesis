@@ -65,8 +65,7 @@ wget $server_url/$sitename/check_mk/agents/$install_version
 
 # Installing file
 pad "Installing" 100
-sudo su
-dpkg -i $install_version
+sudo dpkg -i $install_version
 echo 
 
 
