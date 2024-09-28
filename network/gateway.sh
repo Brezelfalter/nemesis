@@ -1,4 +1,4 @@
-interface=enp2s0
+interface="YOUR_INTERFACE"
 
 sudo iptables -A FORWARD -i $interface -o $interface -m state --state RELATED,ESTABLISHED -j ACCEPT
 
